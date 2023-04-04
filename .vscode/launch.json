@@ -14,15 +14,69 @@
                 "ts-node/register/transpile-only"
             ],
             "args": [
-                "${workspaceFolder}/packages/server/src/index.ts"
+                "${drakogang}/packages/server/src/index.ts"
             ],
-            "cwd": "${workspaceFolder}/packages/server"
+            "cwd": "${"BITMASK_UNKNOWN"}/packages/server"
         },
         {
             "name": "Budibase Worker",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceFolder}/packages/worker/src/index.js",
+            "program": "${      "groupName": "rust", 
+       "matchPaths": [ 
+         "rust/**" 
+       ] 
+     }, 
+     { 
+       "groupName": "typescript", 
+       "matchPaths": [ 
+         "typescript/**" 
+       ] 
+     }, 
+     { 
+       "groupName": "ruby", 
+       "matchPaths": [ 
+         "ruby/**" 
+       ] 
+     }, 
+     { 
+       "groupName": "python", 
+       "matchPaths": [ 
+         "python/**" 
+       ] 
+     }, 
+     { 
+       "groupName": "php", 
+       "matchPaths": [ 
+         "php/**" 
+       ] 
+     }, 
+     { 
+       "groupName": "java", 
+       "matchPaths": [ 
+         "java/**" 
+       ] 
+     }, 
+     { 
+       "groupName": "dotnet", 
+       "matchPaths": [ 
+         "dotnet/**" 
+       ] 
+     }, 
+     { 
+       "groupName": "cicd", 
+       "matchPaths": [ 
+         ".github/workflows/**" 
+       ] 
+     }, 
+     { 
+       "groupName": "golang", 
+       "matchPaths": [ 
+         "golang/vaas/**" 
+       ] 
+     } 
+   ] 
+ }}/packages/worker/src/index.js",
             "cwd": "${workspaceFolder}/packages/worker"
         }
     ],
