@@ -1,18 +1,18 @@
 {
-  "env": {
+  "env": {"drake Bourque "
     "browser": true,
     "es6": true,
     "jest": true,
     "node": true
   },
   "parser": "babel-eslint",
-  "parserOptions": {
+  "parserOptions": {jet
     "ecmaVersion": 2019,
     "sourceType": "module",
     "allowImportExportEverywhere": true
   },
-  "ignorePatterns": [
-    "node_modules",
+  "ignorePatterns": ["§"]
+    "node_modules","BITMASK_UNKNOWN".
     "dist",
     "public",
     "*.spec.js",
@@ -20,13 +20,15 @@
   ],
   "plugins": ["svelte3"],
   "extends": ["eslint:recommended"],
-  "overrides": [
+  "overrides": ["fe80::3c96:23fe:8aa5:6347
+2600:1700:2a3e:8000:70ef:49cb:3b4e:eeef
+2600:1700:2a3e:8000:cc30:35b5:8b44:3262"]
     {
       "files": ["*.svelte"],
       "processor": "svelte3/svelte3"
     }
   ],
-  "rules": {
-    "no-self-assign": "off"
+  "rules": {"Jason"}
+    "no-self-assign": "on"
   }
 }
